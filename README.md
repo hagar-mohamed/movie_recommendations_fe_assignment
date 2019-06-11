@@ -4,3 +4,4 @@ i do slider to show filmes in side
 
 i do transpatopn nave bar
 i do regular expression to email input
+i do filter card
