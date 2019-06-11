@@ -46,7 +46,13 @@ textarea {
   font-family: sans-serif; }
 
 body {
-  margin: 0; }
+  margin: 0; 
+  background-color:rgb(241, 241, 241) !important;
+  background-image: url(images/download\ \(1\).jpg);
+  background-size: cover;
+  background-image: 100% 100%;
+  
+}
 
 a {
   background: transparent; }
@@ -218,7 +224,8 @@ body {
   font-family: "Roboto", "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
-  line-height: normal; }
+  line-height: normal; 
+position: relative}
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
@@ -477,9 +484,83 @@ ul.arrow {
   -webkit-transition: .3s ease;
   transition: .3s ease; }
 
-
-
-
+  #btnUp
+  {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      z-index: 6645;
+      display: none;
+  }
+  .navbar-brand img
+  {
+      width: 70px;
+      height: 50px;
+  }
+  
+  
+  .slide
+  {
+      width: 80%;
+  }
+  .carousel-indicators li
+  {
+      height: 30px;
+      border-radius: 50%;
+  }
+  .alert
+      {
+        display: none;
+      }
+      .alertwrong 
+      {
+        display: none;
+      }
+      .in-valid
+      {
+        border: 5px solid lightgreen;
+      }
+      .popurs
+      {
+        
+        height: 500px;
+         padding: 20px;
+        overflow: auto;
+        text-align: right;
+      }
+      .popurs 
+      {
+        display: none;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 555555;
+        background-color:rgba(51,51,51,0.2);
+      }
+      .popurs .container
+      {border-radius: 25px;
+        position: relative;
+        top: 100px;
+        right: 200px;
+        left: 50px;
+        
+        width: 930px;
+        height: 350px;
+         padding: 20px;
+        margin-bottom: 50px;
+        background-color: #fff;
+      }
+      .popurs .rowmsg
+      {
+        position: absolute;
+        right: 10px;
+        width: 300px;
+        direction: rtl;
+      }i{
+        cursor: pointer;
+      }
 
 
 
@@ -1194,7 +1275,12 @@ ul.arrow {
 
   .col-lg-offset-9 {
     margin-left: 75%; }
-
+    #scrllTop {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 21121212;
+  }
   .col-lg-offset-10 {
     margin-left: 83.3333333333%; }
 
